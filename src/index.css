@@ -10,14 +10,5 @@
 }
 
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-* html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
+  @apply box-border m-0 p-0 overflow-x-hidden;
 }
