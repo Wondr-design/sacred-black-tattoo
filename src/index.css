@@ -10,5 +10,5 @@
 }
 
 body {
-  @apply box-border m-0 p-0 overflow-x-hidden;
+  @apply box-border m-0 p-0;
 }
