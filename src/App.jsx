@@ -1,23 +1,19 @@
+import Card from "./components/Card";
 const App = () => {
   return (
     <>
       <section
-        className="bg-amber-800 w-screen h-screen"
+        className="bg-background w-[100vw] h-auto grid grid-rows-3 place-items-center sm:grid-cols-2 place-items-center"
         style={{ overflow: "hidden" }}
       >
-        <div className="bg-background text-foreground">
-          <h1 className="text-h1">Hello, Vite!</h1>
-          <div className=" bg-bg-card h-96 w-96 shadow-xl mt-[10rem]"></div>
-        </div>
-      </section>
-      <section
-        className="bg-amber-800 w-screen h-screen"
-        style={{ overflow: "hidden" }}
-      >
-        <div className="bg-background text-foreground">
-          <h1 className="text-h1">Hello, Vite!</h1>
-          <div className=" bg-bg-card h-96 w-96 shadow-xl mt-[10rem]"></div>
-        </div>
+        <Card color="red" />
+        <Card color="red" />
+        <Card color="red" />
+        <Card color="red" />
+        <Card color="blue" />
+        <Card color="red" />
+        <Card color="red" />
+        <Card color="red" />
       </section>
     </>
   );

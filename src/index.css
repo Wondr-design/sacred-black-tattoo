@@ -1,16 +1,23 @@
 @import "tailwindcss";
 
-@theme default {
-  --font-sans:
-    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+@theme {
+  --font-poppins: Poppins, sans-serif;
 
-  --color-background: #e5e5e5;
+  --color-background: #f2f2f2;
   --color-foreground: #000000;
-  --color-bg-card: #134987;
   --text-h1: 10rem;
+  --breakpoint-sm: 90rem;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
