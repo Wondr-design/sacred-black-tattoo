@@ -1,9 +1,8 @@
-const Card = ({ color }) => {
-  return (
-    <>
-      <div className={`bg-${color}-500 w-full h-[30rem] rounded-[100vh]`}></div>
-    </>
-  );
-};
+import React from 'react'
 
-export default Card;
+const Card = () => {
+    return (
+        <div>Card</div>
+    )
+}
+export default Card

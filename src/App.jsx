@@ -1,19 +1,13 @@
-import Card from "./components/Card";
 const App = () => {
   return (
     <>
-      <section
-        className="bg-background w-[100vw] h-auto grid grid-rows-3 place-items-center sm:grid-cols-2 place-items-center"
-        style={{ overflow: "hidden" }}
-      >
-        <Card color="red" />
-        <Card color="red" />
-        <Card color="red" />
-        <Card color="red" />
-        <Card color="blue" />
-        <Card color="red" />
-        <Card color="red" />
-        <Card color="red" />
+      <section>
+        <div className="">
+          <h1 className="card selection:bg-amber-300 selection:text-amber-700">Chest nut color font </h1>
+          <h2 className="card2">Chest nut color font </h2>
+          <h3 className="card3">Chest nut color font </h3>
+        </div>
+
       </section>
     </>
   );

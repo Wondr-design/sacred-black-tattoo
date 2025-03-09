@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer components {
+    .card {
+        @apply mt-10 rounded-lg bg-white p-10;
+    }
+    .card2 {
+        @apply mt-10 rounded-lg bg-red-100 p-10 text-amber-900;
+    }
+    .card3 {
+        @apply mt-10 rounded-lg bg-cyan-100 p-10 text-chestnut;
+    }
+}

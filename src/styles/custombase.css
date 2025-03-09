@@ -1,0 +1,17 @@
+@layer base {
+    body {
+        background-color: #10172a;
+    }
+    h1 {
+        @apply text-main font-medium;
+    }
+    h2 {
+        @apply text-secondary font-bold;
+    }
+    h3 {
+        @apply text-tertiary font-bold;
+    }
+    label {
+        @apply text-white accent-pink-400;
+    }
+}
