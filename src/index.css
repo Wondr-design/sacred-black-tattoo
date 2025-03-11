@@ -1,21 +1,19 @@
-@import "tailwindcss";
-@import "@/styles/base.css";
-@import "@/styles/components.css";
-@import "@/styles/utilities.css";
-@import "@/styles/custombase.css";
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@import '@/styles/fonts.css';
+@import '@/styles/base.css';
+@import '@/styles/components.css';
+@import '@/styles/utilities.css';
+@import '@/styles/custombase.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-poppins: Poppins, sans-serif;
-
-  --color-background: #f2f2f2;
-  --color-chestnut: #973f29;
-  --color-primary: #1ed784;
-  --text-main: min(10vw,5rem);
-  --text-secondary: 3rem;
-  --text-tertiary: 2rem;
-  --spacing-small: 1rem;
+    --color-background: #000000;
+    --color-dark: #000000;
+    --color-primary: #33b401;
+    --spacing-small: 1rem;
+    --text-small: 0.625rem;
+    --text-medium: 2rem;
+    --font-anybody: 'Anybody', sans-serif;
 }
-
-

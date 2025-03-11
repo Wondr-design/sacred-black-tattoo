@@ -1,17 +1,15 @@
+@import 'tailwindcss';
 @layer base {
     body {
-        background-color: #10172a;
+        @apply bg-background;
     }
     h1 {
-        @apply text-main font-medium;
+        @apply font-anybody uppercase;
     }
     h2 {
-        @apply text-secondary font-bold;
+        @apply font-bold;
     }
-    h3 {
-        @apply text-tertiary font-bold;
-    }
-    label {
-        @apply text-white accent-pink-400;
+    p {
+        @apply text-small;
     }
 }

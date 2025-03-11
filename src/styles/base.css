@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @layer base {
     *,
     ::after,
@@ -16,14 +16,14 @@
         -webkit-text-size-adjust: 100%;
         tab-size: 4;
         font-family: var(
-                --default-font-family,
-                ui-sans-serif,
-                system-ui,
-                sans-serif,
-                "Apple Color Emoji",
-                "Segoe UI Emoji",
-                "Segoe UI Symbol",
-                "Noto Color Emoji",
+            --default-font-family,
+            ui-sans-serif,
+            system-ui,
+            sans-serif,
+            'Apple Color Emoji',
+            'Segoe UI Emoji',
+            'Segoe UI Symbol',
+            'Noto Color Emoji'
         );
         font-feature-settings: var(--default-font-feature-settings, normal);
         font-variation-settings: var(--default-font-variation-settings, normal);
@@ -31,6 +31,7 @@
     }
     body {
         line-height: inherit;
+        color: #33b401;
     }
     hr {
         height: 0;
@@ -46,7 +47,8 @@
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    p {
         font-size: inherit;
         font-weight: inherit;
     }
@@ -64,20 +66,23 @@
     samp,
     pre {
         font-family: var(
-                --default-mono-font-family,
-                ui-monospace,
-                SFMono-Regular,
-                Menlo,
-                Monaco,
-                Consolas,
-                "Liberation Mono",
-                "Courier New",
-                monospace
+            --default-mono-font-family,
+            ui-monospace,
+            SFMono-Regular,
+            Menlo,
+            Monaco,
+            Consolas,
+            'Liberation Mono',
+            'Courier New',
+            monospace
         );
-        font-feature-settings: var(--default-mono-font-feature-settings, normal);
+        font-feature-settings: var(
+            --default-mono-font-feature-settings,
+            normal
+        );
         font-variation-settings: var(
-                --default-mono-font-variation-settings,
-                normal
+            --default-mono-font-variation-settings,
+            normal
         );
         font-size: 1em;
     }
@@ -191,7 +196,7 @@
         box-shadow: none;
     }
     button,
-    input:where([type="button"], [type="reset"], [type="submit"]),
+    input:where([type='button'], [type='reset'], [type='submit']),
     ::file-selector-button {
         appearance: button;
     }
@@ -199,7 +204,7 @@
     ::-webkit-outer-spin-button {
         height: auto;
     }
-    [hidden]:where(:not([hidden="until-found"])) {
+    [hidden]:where(:not([hidden='until-found'])) {
         display: none !important;
     }
 }

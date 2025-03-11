@@ -1,13 +1,16 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
+/*@import '@/index.css';*/
 @layer components {
-    .card {
-        @apply mt-10 rounded-lg bg-white p-10;
+    .nav {
+        @apply font-extralight;
     }
-    .card2 {
-        @apply mt-10 rounded-lg bg-red-100 p-10 text-amber-900;
+    .nav_contain {
+        @apply mx-2 mt-2;
     }
-    .card3 {
-        @apply mt-10 rounded-lg bg-cyan-100 p-10 text-chestnut;
+    .nav_menu_wrap {
+        @apply flex justify-around w-full text-small;
+    }
+    .nav_item {
+        @apply w-full flex justify-center  cursor-pointer hover:bg-primary hover:text-dark;
     }
 }

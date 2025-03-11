@@ -1,6 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-
-@utility flex-center {
+@utility u-flex-center {
     @apply flex items-center justify-center;
+}
+
+@utility u-container {
+    @apply max-w-dvw max-h-dvh;
 }
