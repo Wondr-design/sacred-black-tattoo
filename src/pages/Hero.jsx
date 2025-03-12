@@ -7,7 +7,7 @@ const Hero = () => {
             <section className="hero_wrap">
                 <div className="u-container">
                     {/* <Nav /> */}
-                    <VideoPlayer src="/src/assets/video.mp4" />
+                    <VideoPlayer src="/video.mp4" />
                 </div>
             </section>
         </>
