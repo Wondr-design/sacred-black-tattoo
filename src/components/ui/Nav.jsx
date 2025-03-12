@@ -36,7 +36,7 @@ const Nav = () => {
                     <Link to={'/info'} className="nav_item">
                         info
                     </Link>
-                    <Link to={'/artist'} className="nav_item">
+                    <Link to={'/artists'} className="nav_item">
                         artist
                     </Link>
                     <Link to={'/gallery'} className="nav_item">

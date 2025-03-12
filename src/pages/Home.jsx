@@ -1,12 +1,11 @@
 import React from 'react';
 import VideoPlayer from '@/components/Video';
 
-const Hero = () => {
+const Home = () => {
     return (
         <>
             <section className="hero_wrap">
                 <div className="u-container">
-                    {/* <Nav /> */}
                     <VideoPlayer src="/video.mp4" />
                 </div>
             </section>
@@ -14,4 +13,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Home;
